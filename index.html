@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eheals.com.br</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Link do CDN do FontAweome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- botão Iniciar Quiz -->
+    <div class="start_btn"><button>Iniciar Teste</button></div>
+
+    <!-- Caixa de Informações -->
+    <div class="info_box">
+        <div class="info-title"><span>Regras da plataforma eHEALS.com.br</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá apenas <span>15 segundos</span> para cada pergunta.</div>
+            <div class="info">2. Uma vez que você seleciona sua resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do teste enquanto estiver participando.</div>
+            <div class="info">5. Você receberá pontos com base em suas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Voltar</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Caixa de Quiz -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Protótipo eheals.com.br</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo:</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui eu inseri a pergunta do JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui eu inseri as opções do JavaScript -->
+            </div>
+        </section>
+
+        <!-- rodapé da Caixa de Quiz -->
+        <footer>
+            <div class="total_que">
+                <!-- Aqui eu inseri o Número Total de Perguntas do JavaScript -->
+            </div>
+            <button class="next_btn">Próxima Pergunta</button>
+        </footer>
+    </div>
+
+    <!-- Caixa de Resultado -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o Protótipo eheals.com.br!</div>
+        <div class="score_text">
+            <!-- Aqui eu inseri o Resultado da Pontuação do JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Repetir Teste</button>
+            <button class="quit">Sair do Teste</button>
+        </div>
+    </div>
+
+    <!-- Dentro deste arquivo JavaScript, eu inseri apenas Questões e Opções -->
+    <script src="js/questions.js"></script>
+
+    <!-- Dentro deste arquivo JavaScript, eu codifiquei todos os códigos do Quiz -->
+    <script src="js/script.js"></script>
+
+    
+</body>
+</html>
